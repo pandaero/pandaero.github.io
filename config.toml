@@ -1,14 +1,14 @@
-baseurl      = "localhost"
-title        = "My Blog"
+baseurl      = "https://pandaero.github.io"
+title        = "A Software Engineering journey"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
 
   # Subtitle for home
   homeSubtitle = "A simple and beautiful blog"
@@ -31,14 +31,21 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
+    title = "A Software Engineering Journey"
+    subtitle = "My path..."
+    keywords = "software, engineeing"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read more posts"
+
+  [languages.es]
+    title = "Un viaje en ingeniería de software"
+    subtitle = "Mi camino..."
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+    readOtherPosts = "Leer más entradas"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "Idiomas"
       logoHomeLink = "/"
     # or
     #
