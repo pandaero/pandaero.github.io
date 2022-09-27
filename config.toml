@@ -11,21 +11,21 @@ paginate     = 10
   dateformNumTime = "02-01-2006 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "A hello"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  keywords = "homepage"
   images = [""]
 
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
@@ -45,7 +45,10 @@ paginate     = 10
     readOtherPosts = "Leer más entradas"
 
     [languages.en.params.logo]
-      logoText = "Idiomas"
+      logoText = "://path"
+      logoHomeLink = "/"
+    [languages.es.params.logo]
+      logoText = "://ruta"
       logoHomeLink = "/"
     # or
     #
@@ -54,6 +57,10 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
+    identifier = "posts"
+    name       = "Journal"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
