@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "02-01-2006 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A hello"
+  homeSubtitle = "An Aerospace engineer finds out that software isn't as simple as coding."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -39,10 +39,17 @@ paginate     = 10
 
   [languages.es]
     title = "Un viaje en ingeniería de software"
-    subtitle = "Mi camino..."
+    subtitle = "Mi ruta..."
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Leer más entradas"
+
+  [languages.de]
+    title = "Eine Reise zur Software Entwicklung"
+    subtitle = "Mein pfad..."
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Mehr Posts lesen"
 
     [languages.en.params.logo]
       logoText = "://path"
